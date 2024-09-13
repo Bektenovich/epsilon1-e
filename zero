@@ -2,10 +2,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-double machine_zero=1.0;
-while(machine_zero/2.0>0.0){
-machine_zero /= 2.0;
- }
-cout<<"Машинный ноль для double:"<<machine_zero<<endl;
+int m=0;
+float machine_zero=1.0;
+while(machine_zero>0){
+machine_zero/=10.0;
+m++;
+}
+cout<<m<<endl;
 return 0;
 }
