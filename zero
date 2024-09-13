@@ -2,8 +2,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-double machine_zero = 1.0;
-while (machine_zero / 2.0 > 0.0) {
+double machine_zero=1.0;
+while(machine_zero/2.0>0.0){
 machine_zero /= 2.0;
  }
 cout<<"Машинный ноль для double:"<<machine_zero<<endl;
