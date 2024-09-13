@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 int m=0;
-float machine_zero=1.0;
+float machine_zero=1;
 while(machine_zero>0){
 machine_zero/=10.0;
 m++;
